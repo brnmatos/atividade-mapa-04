@@ -16,8 +16,8 @@ public class EmailService {
         // Configurações do servidor SMTP do Gmail
         String host = "smtp.gmail.com";
         int port = 587;
-        String username = "matos.brn@gmail.com"; // Seu endereço de e-mail do Gmail
-        String password = "zfgiqyucjxviabmm"; // Sua senha do Gmail
+        String username = "teste@gmail.com"; // Seu endereço de e-mail do Gmail
+        String password = "teste"; // Sua senha do Gmail
 
         // Configurações adicionais
         Properties props = new Properties();

@@ -2,7 +2,9 @@
   <div>
     <Navbar :logo="logo_src" :alt="app_name" />
     <div class="main-banner">
-      <login-form />
+      <div>
+        <login-form />
+      </div>
     </div>
   </div>
 </template>
@@ -53,7 +55,7 @@ export default {
 .main-banner {
         background-image:url('/public/img/fundo.jpg');
         background-size: cover;
-        height: 350px;
+        min-height: 500px;
     }
 
 </style>

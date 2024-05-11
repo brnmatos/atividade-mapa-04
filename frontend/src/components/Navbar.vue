@@ -115,11 +115,4 @@ export default {
     color: #FFF;
   }
 
-  .nomeMusica{
-    color: #FFF;
-    text-decoration: none;
-    transition: .5s;
-    margin: auto !important;
-    margin-left: 10px !important;
-  }
 </style>

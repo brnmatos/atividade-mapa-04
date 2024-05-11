@@ -16,7 +16,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(value = "/backend/comprador")
-@CrossOrigin(origins = "http://localhost:8080") // Substitua localhost:8080 pelo endereço do seu aplicativo Vue.js
+@CrossOrigin(origins = "http://localhost:8080")
 public class CompradorController {
 
     @Autowired

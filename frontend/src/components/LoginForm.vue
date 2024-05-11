@@ -32,11 +32,14 @@
           
           realizarLogin(formData).then(response => {
                 usuarioLogado = response;
-                
-                this.$router.push({
+                if(usuarioLogado.id == 0){
+                  this.error = 'Credenciais inválidas. Por favor, tente novamente.';
+                }else{
+                  this.$router.push({
                         path:
                             '/homeAutenticado/' + response.id
                     });
+                }            
 
             }).catch(catchError => {
                 console.error(catchError);
